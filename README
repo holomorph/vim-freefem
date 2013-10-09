@@ -1,0 +1,12 @@
+  vim-freefem
+  ===========
+
+Support for writing FreeFem++ scripts in Vim.  This effort draws from syntax
+files written by those referenced in the links below, and attempts to bring
+them up to date with the current version of FreeFem++
+
+Links:
+
+1. http://ljll.math.upmc.fr/pipermail/freefempp/2011-December/001552.html
+2. http://www.ann.jussieu.fr/~lehyaric/freesoft/coloration_syntaxique_pour_vim.htm
+3. http://www.vim.org/scripts/script.php?script_id=1901
