@@ -14,7 +14,7 @@ unlet b:current_syntax
 syn keyword ffNumber	pi
 
 " Types:
-syn keyword ffType	BoundaryProblem border complex fespace func ifstream matrix
+syn keyword ffType	border Cmatrix complex fespace func ifstream matrix
 syn keyword ffType	mesh mesh3 ofstream problem R3 real solve string varf
 
 " Finite Elements:
