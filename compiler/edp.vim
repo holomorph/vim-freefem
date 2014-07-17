@@ -11,4 +11,4 @@ if exists(":CompilerSet") != 2
 endif
 
 CompilerSet errorformat=Error\ line\ number\ %l,\ in\ file\ %f,
-CompilerSet makeprg=FreeFem++\ %
+CompilerSet makeprg=FreeFem++\ -ne\ %

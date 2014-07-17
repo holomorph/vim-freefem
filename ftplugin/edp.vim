@@ -8,7 +8,7 @@ endif
 runtime! ftplugin/c.vim ftplugin/c_*.vim ftplugin/c/*.vim
 
 " if !exists("current_compiler")
-"   :compiler edp
+"   compiler edp
 " endif
 
 setlocal commentstring=//%s
