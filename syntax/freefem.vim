@@ -113,6 +113,6 @@ hi def link ffStatement	Statement
 hi def link ffSolver	Tag
 hi def link ffType	Type
 
-let b:current_syntax = "edp"
+let b:current_syntax = "freefem"
 
 " vim: ts=18 sw=0 sts=0 tw=100
