@@ -1,12 +1,13 @@
   vim-freefem
   ===========
 
-Support for writing FreeFem++ scripts in Vim.  This effort draws from syntax
-files written by those referenced in the links below, and attempts to bring
-them up to date with the current version of FreeFem++
+Support for writing FreeFem++ [0] scripts in Vim.  This effort draws from
+plugins written by Richard Michel [1], Paul Cazeaux [2], and David Radice [3].
+The aim of this plugin is to be current with the latest FreeFem++.
 
 Links:
 
+0. http://www.freefem.org/ff++/
 1. http://ljll.math.upmc.fr/pipermail/freefempp/2011-December/001552.html
 2. http://www.ann.jussieu.fr/~lehyaric/freesoft/coloration_syntaxique_pour_vim.htm
 3. http://www.vim.org/scripts/script.php?script_id=1901

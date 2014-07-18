@@ -1,4 +1,4 @@
-" Vim filetype plugin file
+" Vim compiler plugin file
 " Language:	FreeFem++
 
 if exists("current_compiler")
