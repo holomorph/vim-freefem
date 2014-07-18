@@ -1,5 +1,6 @@
 " Vim compiler plugin file
 " Language:	FreeFem++
+" License:	GPLv3
 
 if exists("current_compiler")
   finish

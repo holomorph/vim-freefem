@@ -1,5 +1,6 @@
 " Vim filetype plugin file
 " Language:	FreeFem++
+" License:	GPLv3
 
 if exists("b:did_ftplugin")
   finish

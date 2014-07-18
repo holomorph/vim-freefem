@@ -5,6 +5,8 @@ Support for writing FreeFem++ [0] scripts in Vim.  This effort draws from
 plugins written by Richard Michel [1], Paul Cazeaux [2], and David Radice [3].
 The aim of this plugin is to be current with the latest FreeFem++.
 
+License: GPLv3.  See doc/freefem.txt
+
 Links:
 
 0. http://www.freefem.org/ff++/

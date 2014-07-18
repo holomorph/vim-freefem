@@ -1,5 +1,6 @@
 " Vim syntax file
 " Language:	FreeFem++
+" License:	GPLv3
 " Contributor:	Paul Cazeaux
 " Contributor:	Richard Michel <Richard.Michel@lepmi.inpg.fr>
 
