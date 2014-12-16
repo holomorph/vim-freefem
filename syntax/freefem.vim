@@ -30,7 +30,7 @@ syn match ffMacro	display "^\s*\(macro\)\>"
 syn keyword ffFunction	average jump mean otherside
 syn keyword ffFunction	int1d int2d intalledges on
 syn keyword ffFunction	dn dx dxx dxy dy dyx dyy dz
-syn keyword ffFunction	interpolate set
+syn keyword ffFunction	interpolate set sort change
 syn keyword ffFunction	plot
 
 " Mesh Functions:
@@ -41,7 +41,9 @@ syn keyword ffFunction	movemesh readmesh savemesh splitmesh square triangulate t
 syn keyword ffFunction	abs acos acosh arg asin asinh atan atan2 atanh ceil conj cos cosh
 syn keyword ffFunction	exp floor imag log log10 max min norm polar pow sin sinh sqrt tan
 syn keyword ffFunction	tanh randinit randint31 randint32 randreal1 randreal2 randreal3
-syn keyword ffFunction	randres53
+syn keyword ffFunction	randint32 randint31 randreal1 randreadl2 randreal3 randres53
+syn keyword ffFunction	randinit rint ciel
+syn keyword ffFunction	j0 j1 jn y0 y1 yn tgamma erf erfc
 
 " System Functions:
 syn keyword ffFunction	assert clock dumptable exec exit
@@ -49,6 +51,7 @@ syn keyword ffFunction	assert clock dumptable exec exit
 " Global Reserved:
 syn keyword ffGlobal	area cin cout endl HaveUMFPACK hTriangle lenEdge N NoUseOfWait
 syn keyword ffGlobal	nTonEdge nuEdge nuTriangle P region verbosity version t x y z x0 y0
+syn keyword ffGlobal	label verbosity
 
 syn keyword ffMethodFESpace	ndof ndofK
 syn keyword ffMethodStream	default noshowbase noshowpos showbase showpos precision scientific
@@ -64,12 +67,12 @@ syn keyword ffFunction	BFGS convect EigenValue LinearCG LinearGMRES Newton NLCG
 " Solver Parameters:
 syn keyword ffParameter	abserror anisomax append aspectratio bb binside bmat bw cadna clean
 syn keyword ffParameter	cmm cutoff dimKrylov eps err errg factorize fill grey hmax hmin hsv
-syn keyword ffParameter	init inquire inside IsMetric iso ivalue keepbackvertices label
+syn keyword ffParameter	init inquire inside IsMetric iso ivalue keepbackvertices
 syn keyword ffParameter	maxit maxsubdiv metric nbarrow nev nbiso nbiter nbiterline nbjacoby
 syn keyword ffParameter	nbsmooth nbvx ncv nomeshgeneration omega op optimize periodic power
 syn keyword ffParameter	precon prev ps qfe qfnbpE qfnbpT qforder qft ratio rescaling save
 syn keyword ffParameter	sigma solver split splitin2 splitpbedge strategy sym tgv thetamax
-syn keyword ffParameter	tol tolpivot tolpivotsym value varrow vector veps verbosity viso
+syn keyword ffParameter	tol tolpivot tolpivotsym value varrow vector veps viso
 syn keyword ffParameter	wait WindowIndex
 
 " Solvers:
